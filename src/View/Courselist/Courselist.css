@@ -1,0 +1,569 @@
+.course-list-main-container {
+    width: 100%;
+    height: auto;
+    /* max-width: 1350px; */
+    margin: auto;
+    background-color: #f5f4f8 !important;
+}
+
+.course-list-header-container {
+    width: 100%;
+    height: 130px;
+    background-color: #4c33a5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.course-list-inner-conatiner {
+    width: 95%;
+    /* background-color: aqua; */
+    max-width: 1250px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: 754ffe;
+}
+
+.course-list-inner-conatiner>h1 {
+    color: white;
+    font-size: clamp(2rem,2.5vw,2.5rem);
+    font-family: sans-serif;
+    padding-left: 19.5px;
+}
+
+.course-list-content-container {
+    width: 100%;
+    background-color: #f5f4f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.course-list-header-wrapper-container {
+    /* background-color: aqua; */
+    /* width: 6%; */
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 1280px;
+    border: 1px solid transparent;
+}
+
+.course-list-content-header-conatiner1>h4 {
+    font-size: clamp(0.95rem,1.1vw,1.05rem);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(73, 70, 70);
+    margin-bottom: 10px;
+  
+    font-weight: 500;
+}
+
+.course-list-content-header-container2 {
+    display: flex;
+    /* background-color: #754FFE; */
+    width: 40%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.course-list-content-header-container2-view-container {
+    display: flex;
+    align-items: center;
+}
+
+.course-list-content-header-container2-view-container>button {
+    width: 3.7rem;
+    height: 45px;
+    border-radius: 4px;
+ /* border: 1px solid rgb(211, 205, 205); */
+    border: none;
+    font-size: 0.95rem;
+    cursor: pointer;
+}
+.course-list-content-header-container2-view-container>button:first-of-type
+{
+    background-color:#4c33a5 ;
+    color: white;
+    font-size: 0.95rem;
+    border-right: none;
+    margin-right: -0.1rem;
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.course-list-content-header-container2-view-container>button:last-of-type {
+    border: 1px solid rgb(79, 76, 82);
+}
+
+.course-list-content-header-container2-view-container>button:focus {
+   background-color: #4c33a5;
+}
+.course-list-content-header-container2-view-container>button:last-of-type
+{
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-left: none;
+}
+.course-list-content-header-container2-dropdown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: #754FFE; */
+    width: 70%;
+    height: 40px;
+}
+
+.course-list-content-header-container2-dropdown>select {
+    width: 90%;
+    height: 49px;
+    border-radius: 7PX;
+    font-family: sans-serif;
+    font-size: 15px;
+    outline: none;
+    padding-left: 20px;
+     margin-right: -1rem;
+    background-color:white !important;
+    border: 1px solid rgb(214, 209, 209);
+
+}
+.course-list-content-header-container2-dropdown>select
+
+.course-list-content-header-container2-dropdown select option {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    border-radius: 4px;
+    height: 3rem !important;
+}
+
+
+.course-list-content-filter-container {
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+    background-color: #f5f4f8;
+    height: auto;
+    max-width: 1280px;
+    margin: 0 auto;
+    border: 1px solid transparent;
+}
+
+
+
+
+
+
+
+
+/* ---------------------------- */
+
+
+.filter-inner-container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: max(18%,220px);
+    border-radius: 6px;
+    box-shadow: 3px 3px 6px 0px  rgb(218, 213, 213);
+    background-color: white !important;
+    margin-bottom: 10rem;
+    max-height: 40.7rem;
+}
+
+.filter-inner-conatiner1-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid; */
+    width: 100%;
+}
+
+.filter-inner-conatiner1-heading>h4 {
+    font-size: 16px;
+    color: #18113c;
+    font-weight: 550;
+    font-family: sans-serif;
+    margin-left: 1.1rem;
+}
+
+.filter-inner-container1-cancel-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #4b4848;
+}
+
+.filter-inner-container1-cancel-section>h4 {
+    font-size: 14px;
+    color: #9793ab;
+    margin-right: 1rem;
+    margin-left: 0.2rem;
+    font-weight: 550;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.filter-inner-conatiner1-checkbox-conatiner {
+    width: 90%;
+    height: auto;
+    border: 1px solid transparent;
+    /* margin-left: auto; */
+    margin-top: 1.3rem;
+
+}
+
+.filter-inner-conatiner1-checkbox-conatiner>h4 {
+    margin: 0;
+    font-size: 0.86rem;
+    letter-spacing:2px;
+    color: #b9bbbe;
+    font-weight: 550;
+    text-align: left;
+    margin-bottom: 0.4rem;
+
+
+}
+
+
+
+
+
+.filter-inner-chckbox-text {
+    display: flex;
+    column-gap: 0.2rem;
+    margin: 0;
+    height: 2rem;
+    margin-bottom: 0rem;
+    align-items: center;
+    border: 1px solid transparent;
+
+}
+
+.filter-inner-chckbox-text p {
+    margin: 0;
+    font-size: 1rem;
+  color: #4b4b4d;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: left;
+  cursor: pointer;
+}
+.filter-inner-chckbox-text p:hover
+{
+    color: #ff630e;
+}
+
+
+
+.filter-inner-chckbox-text input {
+    background-color: black;
+    border: 1px solid transparent !important;
+}
+
+.course_list_border {
+    width: 100%;
+    height: 1px;
+    background-color: #c7c6c9;
+}
+
+.inner_conatiner1_border {
+    /* border: 1px solid; */
+    width: 100%;
+    height: 1px;
+    background-color: #c7c6c9;
+    margin-top: 2rem;
+}
+
+
+.filate_inner_conatainer1_level_container {
+    width: 90%;
+    height: auto;
+    border: 1px solid transparent;
+    /* margin-left: auto; */
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+
+}
+
+.filate_inner_conatainer1_level_container>h4 {
+    margin: 0;
+    font-size: 0.86rem;
+    letter-spacing:2px;
+    color: #b9bbbe;
+    font-weight: 550;
+    text-align: left;
+    margin-bottom: 0.4rem;
+}
+
+.filter_inner_container1_checkbox_text {
+    display: flex;
+    column-gap: 0.2rem;
+    margin: 0;
+    height: 2rem;
+    align-items: center;
+    border: 1px solid transparent;
+}
+
+.filter_inner_container1_checkbox_text>input {
+    background-color: black;
+}
+
+.filter_inner_container1_checkbox_text>p {
+    margin: 0;
+    font-size: 1rem;
+  color: #4b4b4d;
+  font-weight: 500;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: left;
+  cursor: pointer;
+}
+
+/* ---------------------------- */
+.filter-inner-container2 {
+    /* background-color: #7765d4; */
+    width:79%;
+    height: 100%;
+   
+    
+}
+
+.filter_inner_conatiner2_course_container {
+    background-color: transparent;
+    width: 100%;
+    min-height: 100%;
+    display: grid;
+    column-gap: 1.3rem;
+    row-gap: 1.1rem;
+    grid-template-columns: repeat(3,1fr);
+    margin-bottom: 2rem;
+     
+}
+
+.filter_inner_container_pagnition_container {
+    width: 100%;
+    height: 5.5%;
+    display: flex;
+    /* gap: 1rem; */
+    margin-bottom: 6rem;
+    justify-content: center;
+    align-items: center;
+    column-gap: 0.2rem;
+    
+    /* flex-direction: column; */
+    /* background-color: #5C5776; */
+
+}
+
+.filter_inner_container_pagnition_container>a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: 1px solid black;
+    width: 35px;
+    height: 35px;
+    border-color: #c9c4e2;
+    ;
+}
+
+.filter_inner_container_pagnition_container>a:hover {
+    background-color: #4c33a5;
+    color: white;
+}
+
+
+.course_list_item_list
+{
+    width: max(99.5%,270px);
+    border: 1px solid  transparent;
+    /* min-height: 36rem; */
+    background-color: white;
+    border-radius: 1rem !important;
+    margin-top: 0.6rem;
+    overflow: hidden;
+    transition: all 1s ease 0;
+    max-height: 29rem;
+  
+    
+}
+.course_list_item_list:hover,.course_list_item_list:focus
+{
+    transform: scale(1.01);
+     box-shadow: 3px 5px 3px 0px #e9e7e7;
+}
+
+
+.course_list_item_banner_list
+{
+    width: 100%;
+    height: max(40%,180px);
+}
+.course_list_item_banner_list img
+{
+    width: 100%;
+    height: 100%;
+}
+
+.course_list_item_list h2
+{
+    color: #ff630e;
+    margin: 0;
+    text-align: left;
+        /* padding: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 0rem !important; */
+    margin-top: 0.8rem;
+    margin-left: 1rem;
+    font-weight: 600;
+    font-size: 1.3rem;
+
+}
+.course_list_item_list h1
+{
+    color: #130f40;
+    margin: 0;
+    font-size: clamp(1.2rem,1.5vw,1.55rem);
+    font-family: 'Rajdhani', sans-serif;
+    padding-top: 0.5rem;
+    padding-left: 1rem;
+    text-align: left;
+    font-weight: 700;
+    max-height: 4rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-right: 0.2rem;
+}
+
+.course_list_item_star_list
+{
+    margin-left: 1rem;
+    text-align: left;
+    margin-top: 1.3rem;
+
+}
+
+
+.course_list_item_star_list img
+{
+    margin-right: 6px;
+}
+.course_list_item_list h4
+{
+    margin: 0;
+   text-align: left;
+    width: 90%;
+    margin-left: 1rem;
+    color: #4b4848;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: 0.6rem;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;   
+}
+
+.course_list_item_border_list
+{
+    width: 85%;
+    height: 1px;
+    background-color: whitesmoke;
+    margin: auto;
+    margin-top: 2.5rem;
+}
+.course_list_item_time_list
+{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    margin-left:2.5rem;
+    align-items: center;
+    margin-top: 0rem !important;
+    padding-bottom: 0.7rem;
+}
+.course_list_item_time_list h5
+{
+    margin: 0;
+   font-weight: 500;
+   font-size: 1.1rem;
+   margin-left: 1rem;
+   padding-bottom: 1rem;
+   padding-top: 0.7rem !important;
+}
+
+@media screen and (max-width:1400px) {
+    .course-list-content-filter-container
+    {
+        max-width: 1230px;
+    }
+    .course-list-header-container {
+        height: 105px;
+        background-color: #4c33a5;
+       
+    
+    }
+}
+
+@media screen and (max-width:1150px) {
+    
+.filter_inner_conatiner2_course_container {
+    width:95%;
+    
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 2rem;
+     
+}
+.filter-inner-container1
+{
+    margin-left: 1rem;
+}
+}
+
+@media screen and (max-width:750px) {
+    
+    .filter_inner_conatiner2_course_container {
+        width:95%;
+        
+        grid-template-columns: repeat(1,1fr);
+        margin-bottom: 2rem;
+         
+    }
+    .filter-inner-container1
+    {
+        margin-left: 1rem;
+    }
+    }
+
+    @media screen and (max-width:500px) {
+    
+        .filter_inner_conatiner2_course_container {
+            width:90%;
+            
+            grid-template-columns: repeat(1,1fr);
+            margin-bottom: 2rem;
+             margin: auto; 
+             margin-bottom: 2rem;
+        }
+        .filter-inner-container1
+        {
+            display: none;
+        }
+        .filter-inner-container2 {
+            /* background-color: #7765d4; */
+            width:100%;
+            height: 100%;
+           
+            
+        }
+        .course-list-header-container {
+            height: 65px;
+            background-color: #4c33a5;
+           
+        
+        }
+        
+        }

@@ -1,0 +1,204 @@
+.cart_main_container {
+    /* background-color: aqua; */
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.cart_wrapper_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    box-shadow: rgba(231, 228, 228, 0.25) 0px 30px 60px -12px inset, rgba(116, 113, 113, 0.3) 0px 18px 36px -18px inset;
+    width: 100%;
+    max-width: 1240px;
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+    /* padding-left: 50px; */
+    gap: 3rem;
+    border-radius: 6px;
+
+
+}
+
+.cart_header_container {
+    /* background-color: blueviolet; */
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:1465px) {
+    .cart_header_container {
+        flex-direction: column;
+        /* background-color: #4c33a5; */
+    }
+}
+
+.cart_header_container {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.cart_add_course_container {
+    /* background-color: aquamarine; */
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.cart_discount_coupn_code_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aquamarine; */
+    width: 80%;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.cart_discount_wrapper_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    flex-wrap: wrap;
+    width: 99%;
+    height: auto;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+
+
+}
+
+.cart_discount_input_conatiner {
+    display: flex;
+    
+    justify-content: space-between;
+    /* background-color: blueviolet; */
+
+    width: 99%;
+    height: auto;
+}
+.cart_discount_input_conatiner input
+{
+  margin-left: 0 !important;
+  padding-left: 1rem;
+  margin-right: 1rem;
+}
+
+
+
+@media screen and (max-width:1465px) {
+    .cart_discount_input_conatiner {
+        flex-direction: column;
+        /* background-color: #4c33a5; */
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.cart_discount_input_conatiner>input {
+    width: 85%;
+    height: 50px;
+    outline: none;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 0.1px solid rgb(199, 194, 194);
+    border-color: #4c33a5;
+}
+
+@media screen and (max-width:1465px) {
+    .cart_discount_input_conatiner {
+        width: 100%;
+    }
+    
+}
+
+.cart_discount_input_conatiner>button {
+    width: 14%;
+    height: 56px;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #4c33a5;
+    color: white;
+}
+
+@media screen and (max-width:1465px) {
+    .cart_discount_input_conatiner>button {
+        width: 85%;
+
+        /* background-color: #eeeeee; */
+    }
+}
+
+/* --------------- */
+.cart_Proceed_To_Pay_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aquamarine; */
+    width: 80%;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.cart_Proceed_To_Pay_wrapper_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    flex-wrap: wrap;
+    width: 99%;
+    height: 100px;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+
+
+}
+
+.cart_Proceed_To_Pay_button_conatiner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* background-color: blueviolet; */
+
+    width: 99%;
+    height: auto;
+}
+
+.cart_Proceed_To_Pay_button_conatiner>button {
+    width: 100%;
+    height: 50px;
+    outline: none;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 0.1px solid rgb(199, 194, 194);
+    border-color: #4c33a5;
+    background-color: #4c33a5;
+    color: white;
+}
+
+@media screen and (max-width:1465px) {
+    .cart_Proceed_To_Pay_button_conatiner {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:1468px) {
+    .cart_discount_input_conatiner>input {
+        margin-bottom: 1rem;
+    }
+}

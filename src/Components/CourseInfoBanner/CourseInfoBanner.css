@@ -1,0 +1,74 @@
+.course_info_banner_comp_main_container
+{
+    width: 99.9%;
+    height: max(44.5vh,300px);
+    border: 1px solid #5439b6;
+    background-color:  #4c33a5;
+}
+.course_info_banner_comp_main_container_item
+{
+    
+    width: 95%;
+    max-width: 1200px;
+    height: 100%;
+    border: 1px solid transparent;
+    margin: auto;
+    
+}
+.course_info_banner_comp_main_container_item_header
+{
+    width: 95%;
+    margin-left: 2rem;
+    text-align: left;
+  margin-top: 3rem;
+    
+}
+.course_info_banner_comp_main_container_item_header h1
+{
+  color: white;
+  margin: 0;
+  width:60%;
+  font-size: clamp(1.7rem,2.8vw,2.8rem);
+  font-weight: bold;
+  font-weight: 500;
+}
+
+.course_info_banner_comp_main_container_item_paragraph
+{
+    width: 95%;
+    
+    text-align: left;
+   margin-top: 1rem;
+    
+}
+.course_info_banner_comp_main_container_item_paragraph h3
+{
+  color: white;
+  margin: 0;
+  width:60%;
+  font-size: 1.3rem;
+  font-weight: bold;
+  font-weight: 500;
+}
+
+.course_info_banner_comp_main_container_item_time
+{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.course_info_banner_comp_main_container_item_time h4
+{
+    color: white;
+    margin-right: 2.5rem;
+   
+}
+.course_banner_star
+{
+    display: flex;
+    align-items: center;
+    column-gap: 0.3rem;
+    color: #ffa62e;
+}
