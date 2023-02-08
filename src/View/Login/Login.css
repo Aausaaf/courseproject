@@ -1,0 +1,131 @@
+.login_page_main_container
+{
+  width: 99.6%;
+
+  min-height: max(500px,99.5vh);
+  border: 1px solid #dbdada;
+  background-color:  #dbdada; 
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}
+.login_page_body_contianer
+{
+    width:38%;
+    max-width: 550px;
+    min-width: 375px;
+    min-height: 90%;
+    background-color: #ffffff;
+    text-align: left !important;
+    margin-bottom: 4rem;
+    margin-top: 2.5rem;
+    border-radius: 5px;
+    box-shadow: 3px 5px 3px 0px #d8d6d6;
+}
+.login_page_body_contianer img
+{
+    margin-left: 2.7rem;
+    text-align: left;
+    margin-top: 1.9rem !important;
+}
+.login_page_body_contianer h1
+{
+    color: #18113c;
+    font-size: clamp(1.5rem,2.5vw,2.3rem);
+    font-weight: 680;
+    margin: 0;
+    margin-left: 2.7rem;
+    margin-top: 0.4rem;
+}
+.login_page_body_contianer h2
+{
+    color: #4d4747;
+    margin: 0;
+
+    font-size: 1.1rem;
+     font-weight: 500;
+     margin-left: 2.7rem;
+     margin-top: 0.2rem;
+     margin-bottom: 1rem;
+}
+
+.login_page_body_contianer h2 span
+{
+    color: #ff630e;
+    cursor: pointer;
+   
+}
+
+.inputbox
+{
+    width: 85%;
+    margin: auto;
+    /* margin-left: 2.7rem; */
+    border: 1px solid transparent;
+    margin-bottom: 0.2rem;
+}
+.inputbox p
+{
+    color: #5a5353;
+    font-size: 1.08rem;
+    margin: 0;
+    padding-top: 0.5rem;
+    padding-bottom: 0.6rem;
+    font-weight: 500;
+    
+}
+.inputbox input
+{
+    font-size: 1rem;
+    padding: 0.8rem;
+    width: 90%;
+    border-radius: 4px;
+    border: 1.2px solid rgb(167, 161, 161);
+}
+.inputbox input:focus
+{
+    outline: none;
+    border: 2px solid #ff630e ;
+}
+
+.inputbox input::placeholder
+{
+    color: rgb(167, 161, 161);;
+}
+
+.login_page_body_contianer button
+{
+    width: max(85%,250px);
+    padding: 0.5rem;
+    background-color: #ff630e;
+    font-size: 1.1rem;
+    margin-bottom:2.9rem;
+    margin-top: 2.2rem;
+    margin-left: 2.6rem;
+    color: white;
+     font-weight: bold;
+     border-radius: 4px;
+     border: none;
+     cursor: pointer;
+     font-family: 'Rajdhani', sans-serif;
+     transition: 0.5s background;
+}
+
+.login_page_body_contianer  button:focus,.login_page_body_contianer  button:hover
+{
+  background-color: white;
+  color: black;
+  outline: 2px solid #ff630e;
+
+}
+.google
+{
+    width: 150px !important;
+    height: 2.5rem !important;
+    background-color: red !important;
+    color: white !important;
+    margin: 0 !important;
+    margin-left: 36% !important;
+    position: relative;
+    top: -1.4rem;
+}

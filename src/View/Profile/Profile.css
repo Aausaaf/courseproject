@@ -1,0 +1,205 @@
+.profile_page_main_container {
+    /* background-color: rgb(245, 245, 248); */
+    background-color: whitesmoke;
+    background-size: cover;
+    font-family: verdana;
+    width: 100%;
+    margin: auto;
+    /* margin-top: 5rem; */
+    height: max(80vh, 550px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    width: 430px;
+    height: 500px;
+    background-color: #0e0a38;
+    /* background-color: 
+      #494949; */
+    margin: 50px auto;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  div.middle {
+    position: relative;
+    text-align: center;
+    top: 60px;
+    height: 130px;
+  }
+  
+  img.user-pic {
+    width: 110px;
+    height: 110px;
+    border-radius: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    border: 5px solid rgba(255, 255, 255, 1);
+  }
+  
+  h4.name {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    margin-top: 6px;
+  }
+  
+  h4.work {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 10px;
+    padding-top: 0px;
+  }
+  
+  h4.social {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.5);
+    padding: 15px;
+  }
+  
+  div.footer {
+    position: relative;
+    background: rgba(255, 255, 255, 1);
+    top: 110px;
+    height: 260px;
+    overflow: scroll;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  div.footer h4
+  {
+    margin-top: 0  !important;
+    top: 0 !important;
+  }
+  div.footer::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .change_password_container {
+    width: 100%;
+    display: flex;
+    text-align: left;
+  }
+  .change_password_container div {
+    margin-left: 0.5rem;
+  }
+  .change_password_container div p {
+    margin-top: 0;
+    margin-bottom: 3px;
+    color: rgb(59, 59, 59);
+  }
+  .footer h4 {
+    margin-bottom: 0;
+    text-align: left;
+    margin-left: 2rem;
+    margin-top: 1.2rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  .footer h4 span {
+    font-weight: 450;
+  }
+  .api_key_div {
+    display: flex;
+    width: 90%;
+    margin-top: 1.2rem;
+  }
+  .api_key_div h4 {
+    margin: 0;
+    margin-left: 2rem;
+  
+    /* width: 100%; */
+  }
+  
+  .api_key_div h5 {
+    margin: 0;
+    width: 74%;
+    overflow: scroll;
+    text-align: left;
+    font-size: 1rem;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-weight: 450;
+    color: rgb(37, 36, 36) !important;
+  }
+  .api_key_div h5::-webkit-scrollbar {
+    display: none;
+  }
+  .footer h5 {
+    font-size: 1rem;
+    cursor: pointer;
+    color: #3470e4;
+  }
+  .save_change_password_button {
+    width: 95px;
+    height: 30px;
+    background-color: #3470e4;
+    /* background-color: 
+      #494949; */
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    margin-top: 1.5rem;
+  
+    /* margin-bottom: 3rem; */
+  }
+  .save_change_password_button:hover {
+    cursor: pointer;
+    background: #3470e4;
+    /* background-color: 
+      #494949; */
+    box-shadow: 0px 5px 30px #7ea5f3;
+    color: rgba(255, 255, 255, 1);
+  }
+  .change_password_main_container {
+    text-align: center;
+    padding-bottom: 6.77rem;
+  }
+  
+  .footer h4 span input {
+    border: none;
+    font-size: 1rem;
+    letter-spacing: 2.9px;
+    outline: none;
+    font-weight: 450;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    background-color: transparent;
+  }
+  .password_text_div {
+    display: flex;
+    width: 100%;
+    align-items: center;
+  }
+  .eye_password_text {
+    margin-left:2em;
+    margin-top: 1.2rem;
+  }
+  .password_text_div input
+  {
+    width: 127px;
+  }
+.footer
+{
+    align-items: initial !important;
+    justify-content: initial !important;
+}
+  .footer h2
+  {
+     font-size: 1.2rem;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-weight: 450;
+     
+  }  .footer h2 span
+  {
+    font-size: 1.15rem;
+    font-weight: 430;
+  }
+  .name
+  {
+    text-transform: capitalize !important;
+  }
